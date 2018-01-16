@@ -1,0 +1,70 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2017.10.24
+    最新更新:2017.10.24
+    修改人员:赵强
+    修改日期:
+    修改原因:
+    修改代码行数区间:
+*/
+body{overflow: auto !important;}
+.center{width: 1170px; margin: 0 auto;}
+.main{width: 100%; height: auto; background: #F5F5F5; padding-bottom: 20px;}
+/* 分类导航 */
+.main .titleNav{ width: 100%; padding-bottom: 20px; margin: 10px 0;}
+.main .titleNav .titleNavCon{ width: 97.2%; height: 50px; line-height: 50px; padding: 0 15px; margin: 0 auto; background: #fff; position: relative; top: 12px; }
+.main .titleNav .titleNavCon a{ display: inline-block; font-size: 17px; padding-right: 22px; line-height: 37px;}
+.main .titleNav .titleNavCon a:hover{ color: #C90000; }
+.main .titleNav .titleNavCon a.one{ color:#C90000; font-weight: bold; }
+
+/* 热卖品牌 */
+.main .brand{ padding-bottom: 20px;}
+.main .brand h3{ font-size: 20px; color: #333; height: 38px; line-height: 32px; border-bottom:1px solid #FF6767; padding:0 15px;}
+.main .brand .brand_banner{width: 100%; height: 142px; margin-top: 15px; position: relative; background: #fff; position: relative; overflow: hidden;}
+.main .brand .brand_banner ul{ position: absolute; overflow: hidden; zoom: 1;}
+.main .brand .brand_banner li{ width: 1170px; float: left; display: none;}
+.main .brand .brand_banner li{ display: block; transition: 1s;}
+.main .brand .brand_banner li a{ width: 165px; height: 69px; float: left; text-align: center; border:1px solid; border-color:#fff #f2f2f2 #f2f2f2 #fff; position:relative;}
+.main .brand .brand_banner li a img{width: 90px; height: 45px; margin-top: 13px;}
+.main .brand .brand_banner li a span{display: inline-block; width: 100%; position: absolute; left: 0; bottom: 0; z-index: 5; color: #fff; background: #E02F2F; display: none;}
+
+.main .brand .brand_banner li a:hover{ border:1px solid #E02F2F;}
+.main .brand .brand_banner li a:hover span{display: block;}
+/* 左右按钮 */
+.main .brand .brand_banner .left,.main .brand .brand_banner .right{ width: 20px; height: 39px; line-height: 39px; background: transparent; z-index: 10; font-size: 22px; color: #666; position:absolute; top: 35%; cursor: pointer; text-align: center;}
+.main .brand .brand_banner .left{ left: 2px;}
+.main .brand .brand_banner .right{ right: 2px;}
+.main .brand .brand_banner .left:hover,.main .brand .brand_banner .right:hover{background: #E02F2F; color: #fff;}
+
+/* 全部品牌 */
+/* .main .allBrand{border:1px solid #f00;} */
+.main .allBrand h3.title{ font-size: 20px; color: #333; height: 38px; line-height: 32px; border-bottom:1px solid #FF6767; padding:0 15px; margin-bottom: 15px;}
+.main .allBrand_main{width: 100%; height: auto; overflow: hidden; zoom: 1;}
+.main .allBrand_main ul{width: 100%; height: auto; overflow: hidden; zoom: 1; margin-bottom: 20px;}
+.main .allBrand_main ul li{ width: 23.5%; height: 340px; float: left; margin-right: 20px; margin-bottom: 10px; background: #fff; cursor: pointer;}
+.main .allBrand_main ul li a{display: block;}
+.main .allBrand_main ul li:last-child{float: right; margin-right: 0;}
+.main .allBrand_main ul li img{width: 100%;}
+.main .allBrand_main ul li a h4,.main .allBrand_main ul li a h3{ padding:0 10px;}
+
+.main .allBrand_main ul li h4 span{ width: 200px; color: #666; display: inline-block; overflow: hidden; text-overflow:ellipsis; white-space: nowrap; display: inline-block; font-size: 12px;}
+.main .allBrand_main ul li h4 i{ font-style: normal; color: #999;}
+.main .allBrand_main ul li h3{font-size: 17px; line-height: 34px;}
+.main .allBrand_main ul li h3 span{ display: inline-block; width: 194px; height: 30px; color: #EC1611; overflow: hidden; text-overflow:ellipsis; white-space: nowrap; letter-spacing: 1px;}
+
+.main .allBrand_main ul.one li h4 span{ width: auto; color: #888; font-size: 12px;}
+.main .allBrand_main ul.one li h4 span:hover{color: #F13933; text-decoration: underline;}
+.main .allBrand_main ul.one li h3{ font-size: 16px; color: #333; line-height: 32px;}
+.main .allBrand_main ul.one li h3 span{ width: 180px;}
+.main .allBrand_main ul.one li h3 input{display: inline-block; width: 70px; height: 25px; background: #EC1611; border:none; color: #fff; float: right; letter-spacing: 1px; font-size: 14px; text-align: center; margin-top: 2px;}
+.main .allBrand_main li:hover{ background: #fff;box-shadow:5px 0 10px #ddd , -5px 0 10px #ddd , 0 5px 10px #ddd , 0 -5px 10px #ddd;}
+
+.main .pageNav{ margin: 0 auto; text-align: center; margin-bottom: 40px; }
+.main .pageNav ul li{ display: inline-block; }
+.main .pageNav span { background: #ED0F08; color: #fff; font-weight: bold; text-align: center; display: inline-block; margin-left: 1px; padding: 10px 15px; overflow: hidden; }
+.main .pageNav span.pgPrev{ color: #bbb; font-weight: normal; background: none repeat scroll 0 0 #FFFFFF; width: 60px; border-radius: 20px 0 0 20px; }
+.main .pageNav a,.main .pageNav i{ display: inline-block; background: none repeat scroll 0 0 #FFF; margin-left: 1px; padding: 10px 15px; overflow: hidden; color: #a3370f; font-size: 14px; font-weight: bold; border-right: none; -moz-box-shadow: 1px 1px 3px rgba(226,226,226,0.75); -webkit-box-shadow: 1px 1px 3px rgba(226,226,226,0.75); box-shadow: 1px 1px 3px rgba(226,226,226,0.75); } 
+.main .pageNav i{ color: #d4d4d4;}
+.main .pageNav a{ transition:.8s; }
+.main .pageNav a.pgNext{ width: 60px; border-radius: 0 20px 20px 0; text-align: center; }
+.main .pageNav a:hover{ color: #FF0F38; transition:.8s; }

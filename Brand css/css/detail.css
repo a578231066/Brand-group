@@ -1,0 +1,95 @@
+/*
+    项目负责人：赵强
+    项目创建日期:2017.10.24
+    最新更新:2017.10.24
+    修改人员:赵强
+    修改日期:
+    修改原因:
+    修改代码行数区间:
+*/
+body{overflow: auto !important;}
+.center{width: 1170px; margin: 0 auto;}
+.banner{width: 100%; height: 320px; position:relative;}
+.banner img{width: 100%; height: 100%;}
+.banner .banner_size{ position:absolute; right: 20%; bottom: 20px;}
+.banner .banner_size a{display: inline-block; width: 100%; height: 100%; padding:5px 10px; text-align: center; background: rgba(0,0,0,.4); color: #fff; letter-spacing: 1px;}
+.banner .banner_size a:hover{text-decoration: underline;}
+
+/* 内容 */
+.main{width: 100%; height: auto; background: #E2E7EB; padding-bottom: 20px;}
+/* 满减 */
+.main .fullCut{width: 100%; height: 55px; padding-top: 10px;}
+.main .fullCut span{display: inline-block; padding:5px 10px; border:1px solid #ec1611; color: #ec1611; font-size: 14px; line-height: 15px; margin-top: 7px; font-size: 14px;}
+.main .fullCut i{display: inline-block; color: #ec1611; margin-left: 10px; font-size: 14px; margin-left: 20px;}
+.main .fullCut strong{display: inline-block; width: 75px; text-align: right; font-weight: 400; font-size: 13px; background: url(../images/detail/xingxing.png) no-repeat left; background-position: 1px center; color: #999; margin-top: 30px; cursor: pointer; padding-right: 10px;}
+.main .fullCut strong:hover{background: url(../images/detail/redXingxing.png) no-repeat left; color: #ec1611;}
+/* 销量 */
+.main .volume{width: 100%; height: auto;}
+.main .volume ul{width: 100%; height: 36px; line-height: 36px; background: #fff;}
+.main .volume ul li a{display: inline-block; width: 70px; float: left; text-align: center; border-right:1px solid #f2f2f2; font-size: 14px;}
+.main .volume ul li.jiage a{ background: url(../images/detail/sanj.png) no-repeat right; background-position: 55px center ; border-right:none;}
+.main .volume ul li.jiage img{ z-index: 99; margin-left: -13px; display: none;}
+.main .volume ul img{ border:1px solid #f00; background: #f00; margin-left: -15px; display: none; vertical-align: middle;}
+.main .volume ul li:hover a{ color: #ec1611;}
+/* .main .volume ul li.jiage:hover a{background: url(../images/detail/redTopSanj.png) no-repeat right; background-position: 55px center;} */
+.main .volume ul li.active a{background: #ec1611; color: #fff;}
+.main .volume ul strong{ padding-right: 10px; color: #666; font-weight: 400;}
+.main .volume ul.one{ border-top: 1px solid #E5E5E5;}
+.main .volume ul.one li a{display: inline-block; width: 150px; height: 20px; line-height: 20px; margin-top: 8px; border-right:1px solid #666;}
+.main .volume ul li:last-child a{ border-right:none;}
+/* 今日必抢 */
+.main .today{width: 100%; height: auto;}
+.main .today div.title{ width: 100%; height: 45px; background: url(../images/detail/brand_border.png) repeat-x bottom; margin-bottom: 20px;}
+.main .today h1{ width: 100%; height: 45px; line-height: 45px; color: #ec1611; font-weight: 400; font-size: 20px; background: url(../images/detail/brand_title.png) no-repeat left; padding-left: 25px;}
+.main .xingqu h1{background: url(../images/detail/brand_xin.png) no-repeat left;}
+.main .today ul{ width: 100%; height: 375px;}
+.main .today ul li{ width: 23.5%; height: 340px; margin-right: 23px; background: #fff; float: left; cursor: pointer;}
+.main .today ul li a{display: block;}
+.main .today ul li img{ width: 100%;}
+.main .today ul li:last-child{ float: right; margin-right: 0;}
+.main .today ul li a h3{ padding:0 10px;}
+.main .today ul li h4 span{ height: 20px; padding:5px 10px 0 10px; color: #666; text-align: left;}
+.main .today ul li a h3{color: #EC1611; margin-top: 2px; padding-bottom: 9px;}
+.main .today ul li a h3 span i{font-size: 22px;}
+.main .today ul li a h3 span s{display: inline-block; color: #999; margin-left: 10px;}
+.main .today ul li a h3 i.fr{ font-size: 12px; color: #999;}
+.main .today li p{ padding:5px 10px; border-top:1px dashed #C1C1C1; background: #fff; color: #FF6767; display: none;}
+.main .today li p a{display: inline-block;}
+.main .today li p span{ padding:0 4px;}
+.main .today li p span a{ color: #999;}
+.main .today li p span.one{border-right:1px solid #FF6767;}
+.main .today li p span.two a{color: #FF6767;}
+.main .today li p span:hover a{ text-decoration: underline;}
+.main .today li p span:last-child{float: right;}
+.main .today li:hover{ height: 370px; background: #fff;box-shadow:5px 0 10px #ddd , -5px 0 10px #ddd , 0 5px 10px #ddd , 0 -5px 10px #ddd;}
+.main .today li:hover p{display: block;}
+
+.main .today .title_one{width: 100%; height: 26px; margin-bottom: 20px; border-bottom:1px solid #ccc;}
+.main .today .title_one span a{ font-size: 16px; font-weight: 700; color: #FF6767; border-right:1px solid #ccc; padding-right:10px;}
+.main .today .title_one i{ background: url(../images/detail/clock.png) no-repeat left; margin-left: 10px; padding-left: 25px; color: #666; font-size: 12px; }
+.main .today .title_one strong a{ color: #666; font-size: 12px;}
+.main .today .title_one strong a:hover{color: #FD4700;}
+.main .today .commodity dl{ overflow: hidden; zoom: 1;}
+.main .today .commodity dd{ width: 15%; height: 210px; float: left; margin-right: 22px; background: #fff; margin-bottom: 30px;}
+.main .today .commodity dd img{width: 100%;}
+.main .today .commodity dd:last-child{float: right; margin-right: 0;}
+.main .today .commodity dd a{position: relative;}
+.main .today .commodity dd a span{ display: block; width: 100%; height: 25px; line-height: 25px; background: rgba(0,0,0,.5); text-align: center; color: #fff; position: absolute; left: 0; bottom: 2px;}
+.main .today .commodity dd p{ height: 30px; line-height: 26px; text-align: center; font-size: 12px; color: #666;}
+.main .today .commodity dd p span{ font-size: 24px; font-weight: 700; color: #FD4700;}
+.main .today .commodity dd p span i{ font-weight: 400; font-size: 14px;}
+
+
+
+
+
+/* 左侧 */
+.main .pageNav{ margin: 0 auto; text-align: center; margin-bottom: 40px; }
+.main .pageNav ul li{ display: inline-block; }
+.main .pageNav span { background: #ED0F08; color: #fff; font-weight: bold; text-align: center; display: inline-block; margin-left: 1px; padding: 10px 15px; overflow: hidden; }
+.main .pageNav span.pgPrev{ color: #bbb; font-weight: normal; background: none repeat scroll 0 0 #FFFFFF; width: 60px; border-radius: 20px 0 0 20px; }
+.main .pageNav a,.main .pageNav i{ display: inline-block; background: none repeat scroll 0 0 #FFF; margin-left: 1px; padding: 10px 15px; overflow: hidden; color: #a3370f; font-size: 14px; font-weight: bold; border-right: none; -moz-box-shadow: 1px 1px 3px rgba(226,226,226,0.75); -webkit-box-shadow: 1px 1px 3px rgba(226,226,226,0.75); box-shadow: 1px 1px 3px rgba(226,226,226,0.75);}
+.main .pageNav i{ color: #d4d4d4;}
+.main .pageNav a{ transition:.8s; }
+.main .pageNav a.pgNext{ width: 60px; border-radius: 0 20px 20px 0; text-align: center; }
+.main .pageNav a:hover{ color: #FF0F38; transition:.8s; }

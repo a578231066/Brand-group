@@ -1,0 +1,75 @@
+#ceBianLan{ position: fixed; visibility: visible; top: 80px!important; margin-left: -750px!important; width: 146px; left: 49%; text-align: left; border: 1px solid #ebebeb; z-index: 98; background: #FFF; font-family: "microsoft yahei"; display: none; }
+#ceBianLan .logo{ display: table-cell; vertical-align: middle; text-align: center; float: none;  }
+#ceBianLan .logo a img{ height: 70px; width: 145px; display: block; }
+#ceBianLan .content{ background: #fff; }
+#ceBianLan .content .choose{ color: #fff; font-family: "寰蒋闆呴粦"; font-size: 12px; }
+#ceBianLan .content .choose a{ background: #fe6a6a; text-align: center; height: 25px; width: 120px; line-height: 25px; margin-left: 10px; margin-top: 7px; display: block; color: #fff; }
+#ceBianLan .content .fourClass{ padding: 5px 0; overflow: hidden; }
+#ceBianLan .content .fourClass ul{ zoom: 1; padding: 0 10px 0 13px; }
+#ceBianLan .content .fourClass ul li{ display: block; float: left; height: 30px; line-height: 30px; padding: 0 5px; position: relative; }
+#ceBianLan .content .line{ border-top: 1px solid #f0f0f0; margin: 0 10px; }
+#ceBianLan .content .conNav{ margin: 5px 0; background-color: #FFF; overflow: hidden; }
+#ceBianLan .content .conNav ul{ zoom: 1; padding: 5px 10px 0 13px; overflow: hidden; }
+#ceBianLan .content .conNav ul li{ float: left; width: 50%; line-height: 30px; height: 29px; }
+#ceBianLan .content .conNav ul li a i{ display: block; float: left; margin-top: 5px; margin-right: 4px; height: 20px; width: 20px; background: url(http://www.zhe9000.com/static/zhe_image/shouye_new_img.png) no-repeat; line-height: 20px; }
+#ceBianLan .content .conNav ul .zhe0 a i{ background-position: -576px -48px; }
+#ceBianLan .content .conNav ul .zhe1 a i{ background-position: -639px -48px; }
+#ceBianLan .content .conNav ul .zhe2 a i{ background-position: -576px -77px; }
+#ceBianLan .content .conNav ul .zhe3 a i{ background-position: -639px -77px; }
+#ceBianLan .content .conNav ul .zhe4 a i{ background-position: -576px -105px; }
+#ceBianLan .content .conNav ul .zhe5 a i{ background-position: -639px -105px; }
+#ceBianLan .content .conNav ul .zhe6 a i{ background-position: -576px -133px; }
+#ceBianLan .content .conNav ul .zhe7 a i{ background-position: -639px -133px; }
+#ceBianLan .content .conNav ul .zhe8 a i{ background-position: -576px -160px; }
+#ceBianLan .content .conNav ul .zhe9 a i{ background-position: -639px -160px; }
+#ceBianLan .content .conNav ul .zhe10 a i{ background-position: -576px -189px; }
+#ceBianLan .content .conNav ul .zhe11 a i{ background-position: -639px -189px; }
+#ceBianLan .content .conNav ul .zhe12 a i{ background-position: -576px -216px; }
+#ceBianLan .content .conNav ul .zhe13 a i{ background-position: -639px -216px; }
+#ceBianLan .content .conNav ul .zhe14 a i{ background-position: -576px -244px; }
+#ceBianLan .content .conNav ul .zhe15 a i{ background-position: -639px -244px; }
+#ceBianLan .content .conNav ul li a{ transition:0.6s; }
+#ceBianLan .content .conNav ul li a:hover{ color: #E4393C; text-decoration: underline; transition:0.6s; }
+#ceBianLan .content .conNav ul .zhe0 a:hover i{ background-position: -700px -5px; }
+#ceBianLan .content .conNav ul .zhe1 a:hover i{ background-position: -763px -5px; }
+#ceBianLan .content .conNav ul .zhe2 a:hover i{ background-position: -700px -34px; }
+#ceBianLan .content .conNav ul .zhe3 a:hover i{ background-position: -763px -34px; }
+#ceBianLan .content .conNav ul .zhe4 a:hover i{ background-position: -700px -62px; }
+#ceBianLan .content .conNav ul .zhe5 a:hover i{ background-position: -763px -62px; }
+#ceBianLan .content .conNav ul .zhe6 a:hover i{ background-position: -700px -90px; }
+#ceBianLan .content .conNav ul .zhe7 a:hover i{ background-position: -763px -90px; }
+#ceBianLan .content .conNav ul .zhe8 a:hover i{ background-position: -700px -117px; }
+#ceBianLan .content .conNav ul .zhe9 a:hover i{ background-position: -763px -117px; }
+#ceBianLan .content .conNav ul .zhe10 a:hover i{ background-position: -700px -146px; }
+#ceBianLan .content .conNav ul .zhe11 a:hover i{ background-position: -763px -146px; }
+#ceBianLan .content .conNav ul .zhe12 a:hover i{ background-position: -700px -173px; }
+#ceBianLan .content .conNav ul .zhe13 a:hover i{ background-position: -763px -173px; }
+#ceBianLan .content .conNav ul .zhe14 a:hover i{ background-position: -700px -201px; }
+#ceBianLan .content .conNav ul .zhe15 a:hover i{ background-position: -763px -201px; }
+
+#ceBianLan .content form{ display: block; padding-left: 17px; margin-bottom: 10px; }
+#ceBianLan .content form input.txt{ width: 82px; background: #fff; height: 24px; line-height: 20px; border: 1px solid #e5e5e5; padding: 1px 5px; border-right: 0; outline: 0; }
+#ceBianLan .content form input.button{ background: white; width: 23px; height: 28px; cursor: pointer; background: url(../images/fangDaJing.png) no-repeat; padding: 0; display: inline-block; vertical-align: bottom; border: solid 1px #e5e5e5; outline: 0; margin-left: 0px; }
+#ceBianLan .content .nineBao{ border: 0; border-top: 1px solid #f0f0f0; padding: 10px 2px; text-align: center; }
+#ceBianLan .content .nineBao ul{ padding: 0 5px 0 8px;  height: 29px; overflow: hidden; line-height: 29px; }
+#ceBianLan .content .nineBao ul li{ margin-left: 1px; float: left; line-height: 30px; }
+#ceBianLan .content .nineBao ul em{ color: #ccc; display: block; float: left; margin-left: 3px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
